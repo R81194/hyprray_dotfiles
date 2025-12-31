@@ -1,0 +1,125 @@
+* {
+  padding: 0 6px;
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 13px;
+}
+
+@define-color accent #89b4fa;
+@define-color bg #1e1e2e;
+@define-color fg #cdd6f4;
+
+window#waybar {
+  padding: 4px 8px;
+  background-color: @bg;
+  color: @fg;
+  border: 2px solid rgb(112, 146, 254);
+  border-radius: 10px
+
+}
+
+#workspaces button {
+  padding: 0 6px;
+}
+
+#workspaces button:hover {
+  color: @accent;
+  border-bottom: 2px solid @accent;
+}
+
+#workspaces button.active {
+    background: rgb(112, 146, 254);
+    color:rgb(215, 252, 243);
+    box-shadow:rgba(0, 117, 128, 0.6);
+}
+
+#tray {
+  padding: 0 8px;
+}
+
+#clock {
+  min-width: 60px;
+  color: #cdd6f4;
+  padding: 0 8px;
+}
+
+#pulseaudio {
+    padding:2px;
+}
+
+#pulseaudio-slider {
+    padding: 0;
+    margin: 0;
+}
+#pulseaudio-slider slider {
+    min-height: 6px;
+    min-width: 5px;
+    border-radius: 2px;
+    opacity: 0;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+    margin: -1px 0;
+}
+#pulseaudio-slider trough {
+    min-height: 4px;
+    min-width: 90px;
+    border-radius: 2px;
+    background: black;
+}
+#pulseaudio-slider highlight {
+    min-width: 0px;
+    border-radius: 2px;
+    margin-left: -5px;
+    background: rgb(0, 117, 128);
+}
+
+#battery.charging {
+    color: #33fb21
+}
+#battery.good {
+    color: #f6ff00
+}
+#battery.full {
+    color: #04f3fb
+}
+#battery.warning {
+    color: #f95114
+}
+#battery.critical {
+    color: #ff0000
+}
+
+#bluetooth.on{
+    color:#04f3fb
+}
+#bluetooth.off{
+    color:#ff0000
+}
+#bluetooth.connected{
+    color:#33fb21
+}
+
+#network.disabled{
+    color:#ff0000
+}
+
+#custom-home {
+    margin:0 10px;
+    font-size: xx-large ;
+    color:#fefefe;
+    text-shadow: 
+      0px 0px 2px #8da9ff,
+      0px 0px 4px #8fa9ff,
+      0px 0px 6px #7092fe;
+}
+
+#custom-cava {
+    font-family: JetBrains Mono;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color:#04f3fb;
+}
+
+#custom-playerinfo {
+    color:#04f3fb
+}
