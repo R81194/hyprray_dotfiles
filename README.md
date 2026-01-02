@@ -1,30 +1,30 @@
 # HyprRay Dotfiles
 
-Personal Arch Linux + Hyprland dotfiles.
-Built step by step, debugged manually, and designed for a clean Wayland workflow.
-(This is just my first time doing this. I will improve it further)
+Personal Arch Linux + Hyprland dotfiles.<br>
+Built step by step, debugged manually, and designed for a clean Wayland workflow.<br>
+(This is just my first time doing this. I will improve it further)<br>
 
 --------------------------------------------------------------------------------------------------
 
 # #Environment
 
-OS: Arch Linux
-Compositor:Hyprland (Wayland)
-Terminal: kitty
-Shell: bash
-Display Manager: SDDM
-Bar: Waybar
-Lockscreen: Swaylock
-Logout Menu: Custom Script,Wlogout(running)
-Wallpaper Daemon: Hyprpaper, Swww(running)
-Notification Daemon: mako, SwayNC(running)
-Bluetooth Daemon: bluez blues-utils
-Bluetooth Manager: blueman
-Network Daemon: NetworkManager
-Network manager: network-manager-applet
-Text Editor: nano, macro(either works)
-Package Manager: pacman
-AUR Helper: yay
+* OS: Arch Linux<br>
+* Compositor:Hyprland (Wayland)<br>
+* Terminal: kitty<br>
+* Shell: bash<br>
+* Display Manager: SDDM<br>
+* Bar: Waybar<br>
+* Lockscreen: Swaylock<br>
+* Logout Menu: Custom Script,Wlogout(running)<br>
+* Wallpaper Daemon: Hyprpaper, Swww(running)<br>
+* Notification Daemon: mako, SwayNC(running)<br>
+* Bluetooth Daemon: bluez blues-utils<br>
+* Bluetooth Manager: blueman<br>
+* Network Daemon: NetworkManager<br>
+* Network manager: network-manager-applet<br>
+* Text Editor: nano, macro(either works)<br>
+* Package Manager: pacman<br>
+* AUR Helper: yay<br>
 
 ---------------------------------------------------------------------------------------------------
 
