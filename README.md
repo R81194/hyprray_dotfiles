@@ -2,7 +2,7 @@
 
 Personal Arch Linux + Hyprland dotfiles.<br>
 Built step by step, debugged manually, and designed for a clean Wayland workflow.<br>
-(This is just my first time doing this. I will improve it further)<br>
+(This is my first time doing this. I will improve it further)<br>
 
 --------------------------------------------------------------------------------------------------
 
