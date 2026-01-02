@@ -1,4 +1,4 @@
-#HyprRay Dotfiles
+# HyprRay Dotfiles
 
 Personal Arch Linux + Hyprland dotfiles.
 Built step by step, debugged manually, and designed for a clean Wayland workflow.
@@ -6,7 +6,7 @@ Built step by step, debugged manually, and designed for a clean Wayland workflow
 
 --------------------------------------------------------------------------------------------------
 
-##Environment
+# #Environment
 
 OS: Arch Linux
 Compositor:Hyprland (Wayland)
@@ -28,11 +28,11 @@ AUR Helper: yay
 
 ---------------------------------------------------------------------------------------------------
 
-##Required Packages
+# #Required Packages
 
-#Install (before) copying configs.
+* Install (before) copying configs.
 
-###Core
+# ##Core
 ```bash
 sudo pacman -S \
 hyprland \
@@ -52,17 +52,21 @@ wireplumber \
 pulseaudio \
 mako \
 swaync
+```
 
-###Fonts
+# ##Fonts
 
+```bash
 sudo pasman -S \
 ttf-inter \
 ttf-jetbrains-mono \
 noto-fonts \
-noto-fonts-emoji \
+noto-fonts-emoji
+```
 
-###Utilities
+# ##Utilities
 
+```bash
 sudo pacman -S \
 git \
 nano \
@@ -70,24 +74,29 @@ brightnessctl \
 playerctl \
 network-manager-applet \
 bluez bluez-utils \
-blueman 
+blueman
+```
 
-###Enable services
+# ##Enable services
 
+```
 sudo systemctl enable sddm
 sudo systemctl enable NetworkManager
 sudo systemctl start NetworkManager
 sudo systemctl enable bluetooth
 sudo systemctl start bluetooth
+```
 
-#Then (Reboot)
+* Then (Reboot)
 
-###Known Assumptions
+# ##Known Assumptions
 
-#User home is /home/ray (change everywhere in dotfiles with what u set your user to)
-#Uses ~/.cache for runtime files
-#Waybar Scripts are executable
-#---->Make Scripts if needed (do it with every .sh files present in dotfiles)
+* User home is /home/ray (change everywhere in dotfiles with what u set your user to)
+* Uses ~/.cache for runtime files
+* Waybar Scripts are executable
+* ---->Make Scripts if needed (do it with every .sh files present in dotfiles)
+```bash
 chmod +x path/to/script
-#Example: chmod +x ~/.config/waybar/scripts/*.sh (for every scripts in ~/.config/waybar/scripts)
-#Sorry for files management. Scripts are scaterred all over the dotfiles.
+```
+* Example: `chmod +x ~/.config/waybar/scripts/*.sh` (for every scripts in ~/.config/waybar/scripts)
+* Sorry for files management. Scripts are scaterred all over the dotfiles.
